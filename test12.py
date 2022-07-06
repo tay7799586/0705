@@ -18,4 +18,4 @@ for link in news_link[2:]:
     data= (link['title'], target, link['herf'], link['data'])
     cur.execute(sql, data)
     db.commit()
-    time.sleep(3) 
+    time.sleep(3) #
